@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Drill 1 - J1 problem</title>
+    <script type="text/javascript" src="J1-2020.js"></script>
+</head>
+<body>
+    <h1>Dog's happiness score</h1>
+    <h2>Found out how happiness your dog is depends on the amount of treat you give him</h2>
+    <form method="post" action="" id="J1Form">
+        <div>
+            <label>Small treat*:</label>
+            <input class="treat" type ="number" name="small" id="small"/>
+        </div>
+        <div>
+            <label>Medium treat*:</label>
+            <input class="treat" type ="number" name="medium" id="medium" min="0" max="10"/>
+        </div>
+        <div>
+            <label>Large treat*:</label>
+            <input class="treat" type ="number" name="large" id="large" min="0" max="10"/>
+        </div>
+        <div>
+            <input type="submit" value="submit" min="0" max="10"/>
+        </div>
+        <div id="errorMsg"></div>
+        <div>Your dog is <span id ="result">...</span></div>
+    </form>
+
+</body>
+</html>
