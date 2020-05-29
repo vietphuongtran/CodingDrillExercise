@@ -47,13 +47,13 @@ function pageReady () {
                 //one line complete
                 //need to do it for other lines
                 //solution: nested for loop?
-                for (var i = 1; i <= line; i++) {
-                    //create the div depends on how many lines needed
-                    //append the line with the symbol
-                    document.createElement("div"+i);
-                    finalResult.appendChild("div"+i);
-
-                }
+                // for (var i = 1; i <= line; i++) {
+                //     //create the div depends on how many lines needed
+                //     //append the line with the symbol
+                //     document.createElement("div"+i);
+                //     finalResult.appendChild("div"+i);
+                // }
+                //The code is working for 1 line
                 for (var j = 1; j <= number; j ++) {
                     finalresult.innerHTML += symbol;
                 }
